@@ -1,0 +1,10 @@
+language: go
+go:
+  - 1.4
+  - tip
+script:
+  - go test
+install:
+  - go get github.com/mitchellh/mapstructure
+  - go get github.com/pkg4go/assert
+  - go get github.com/tj/go-debug
